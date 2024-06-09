@@ -16,10 +16,14 @@ elif a==2:
 elif a==3:
     b = int(input())
     c = int(input())
+    if c==0:
+        print("На ноль делить нельзя, чайник")
     print(b/c)
 elif a==4:
     b = int(input())
     c = int(input())
+    if c == 0:
+        print("На ноль делить нельзя, чайник")
     print(b%c)
 elif a==5:
     b = int(input())
